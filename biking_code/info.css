@@ -1,0 +1,227 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono" rel="stylesheet">
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+.background {
+  position: absolute;
+	z-index: 1;
+	background-color: black;
+  height: 2600px;
+	width: 100%;
+}
+
+.photo {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+}
+
+.logo {
+   position: absolute;
+   top: 10px;
+	 left: 40px;
+	 transform: rotate(-13deg);
+}
+
+.click {
+		position: absolute;
+		z-index: 1;
+		transition-duration: 0.4s;
+		color: black;
+		padding: 15px;
+		display:inline-block;
+		top: 50px;
+		left: 900px;
+		text-decoration:none;
+}
+
+.click a:link {
+  background-color: none;
+  color: black;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 15px;
+	font-weight: bolder;
+	font-family: 'Roboto Mono', sans-serif;
+}
+
+.click a:hover {
+  background-color: #cebaa1;
+  color: black;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.click a:active {
+  color: black;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.click a:visited {
+	color: black;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.container {
+	position: absolute;
+	z-index: 6;
+	height: 550px;
+	top: 150px;
+	left: 63%;
+	padding: 20px;
+}
+
+.shops {
+		position: relative;
+		background-color: rgba(0, 0, 0, 0.5);
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+		letter-spacing: 2px;
+		padding: 25px;
+		padding-bottom: 25px;
+		font-size: 22px;
+		height: 30px;
+		width: 350px;
+		text-decoration: underline;
+
+}
+
+.about {
+    z-index: 3;
+		color: black;
+		padding: 25px;
+		width: 360px;
+		font-size: 15px;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 1px;
+		background-color: rgba(255, 255, 255, 0.85);
+}
+
+.video {
+		position: absolute;
+		z-index: 5;
+		top: 1000px;
+		left: 10%;
+	}
+
+	.quote {
+		position: absolute;
+		z-index: 5;
+		top: 1030px;
+		left: 68%;
+		color: #ff1b15;
+		font-family: 'Roboto Mono', sans-serif;
+		width: 280px;
+		font-size: 40px;
+	}
+
+	.quote2 {
+		position: absolute;
+		z-index: 5;
+		top: 1550px;
+		left: 8%;
+		color: white;
+		font-family: 'Roboto Mono', sans-serif;
+		width: 350px;
+		font-size: 40px;
+		text-align: right;
+	}
+
+	.cost_img {
+		position: absolute;
+		z-index: 2;
+		top: 1520px;
+		left: 40%;
+	}
+
+	.cost {
+		position: absolute;
+		z-index: 6;
+		top: 1565px;
+		left: 42%;
+		height: 150px;
+		width: 500px;
+		padding: 50px
+	}
+
+	.savings {
+		position: absolute;
+		z-index: 5;
+		color: white;
+		font-family: 'Roboto Mono', sans-serif;
+		font-size: 35px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		text-align: center;
+		color: white;
+		top: 0px;
+		left: 0px;
+		height: 150px;
+		width: 500px;
+		padding: 50px
+	}
+
+	.numbers {
+		position: absolute;
+		z-index: 4;
+		color: white;
+		font-family: 'Roboto Mono', sans-serif;
+		font-size: 35px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		text-align: center;
+		color: white;
+		top: 0px;
+		left: 0px;
+		height: 150px;
+		width: 500px;
+		padding: 50px;
+		display: none;
+	}
+
+	.random1 {
+		position: absolute;
+		top: 420px;
+		left: -400px;
+	}
+
+	.random {
+		position: absolute;
+		font-family: 'Roboto Mono', sans-serif;
+		font-size: 35px;
+		line-height: 1.2em;
+		width: 600px;
+		top: 430px;
+		color: #bcbcbc;
+		left: -20px;
+	}
+
+	.blank {
+		color: #ff1b15;
+	}
+
+	.estimate {
+		position: absolute;
+		font-family: 'Roboto Mono', sans-serif;
+		font-size: 20px;
+		letter-spacing: 2px;
+		text-align: center;
+		line-height: 2.3em;
+		width: 180px;
+		height: 50px;
+		background: #ff1b15;
+		color: white;
+		border-radius: 15px;
+		top: 320px;
+		cursor: pointer;
+	}

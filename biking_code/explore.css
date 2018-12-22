@@ -1,0 +1,503 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono" rel="stylesheet">
+
+body, html {
+	margin: 0;
+	background: black;
+	width: 100%;
+	height: 100%;
+}
+
+.background {
+  background-color: black;
+  height: 3000px;
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+}
+
+.photo {
+  	position: absolute;
+		z-index: 2;
+}
+
+.logo {
+   position: absolute;
+   top: 10px;
+	 left: 40px;
+	 transform: rotate(-13deg);
+}
+
+.button {
+    transition-duration: 0.4s;
+		color: white;
+		padding: 15px;
+		display:inline-block;
+		z-index: 1;
+		position: absolute;
+		top: 50px;
+		left: 900px;
+		text-decoration:none;
+}
+
+.button a:link {
+  background-color: none;
+  color: black;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 15px;
+	font-weight: bolder;
+	font-family: 'Roboto Mono', sans-serif;
+}
+
+.button a:hover {
+  background-color: #cebaa1;
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.button a:active {
+  background-color: #cebaa1;
+	color: black;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.button a:visited {
+	background-color: #cebaa1;
+	color: black;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.trails {
+	position: absolute;
+	z-index: 5;
+	width: 450px;
+	height: 520px;
+	background-color: rgba(245, 117, 51, 0.6);
+	top: 160px;
+	left: 650px;
+	padding: 40px;
+}
+
+.trails h1 {
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: white;
+	font-weight: bold;
+	text-align:left;
+}
+
+.trails p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	line-height: 25px;
+	color: white;
+	text-align:left;
+}
+
+.route h1 {
+	position: absolute;
+	z-index: 4;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 35px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	text-align:left;
+	top: 980px;
+	left: 150px;
+}
+
+.route p {
+	position: absolute;
+	z-index: 4;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-align: center;
+	color: white;
+	text-align:left;
+	line-height: 22px;
+	top: 1020px;
+	left: 150px;
+}
+
+.anoka1 {
+	position: absolute;
+	z-index: 3;
+	top: 1100px;
+	left: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 3px;
+	border: 3px solid red;
+	padding: 10px;
+}
+
+.carver1 {
+	position: absolute;
+	z-index: 3;
+	top: 1170px;
+	left: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 3px;
+	border: 3px solid red;
+	padding: 10px;
+}
+
+.dakota1 {
+	position: absolute;
+	z-index: 3;
+	top: 1240px;
+	left: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 3px;
+	border: 3px solid red;
+	padding: 10px;
+}
+
+.hennepin1 {
+	position: absolute;
+	z-index: 3;
+	top: 1310px;
+	left: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 3px;
+	border: 3px solid red;
+	padding: 10px;
+}
+
+.ramsey1 {
+	position: absolute;
+	z-index: 3;
+	top: 1380px;
+	left: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 3px;
+	border: 3px solid red;
+	padding: 10px;
+}
+
+.scott1 {
+	position: absolute;
+	z-index: 3;
+	top: 1450px;
+	left: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 3px;
+	border: 3px solid red;
+	padding: 10px;
+}
+
+.maps {
+	position: absolute;
+	z-index: 3;
+	top: 990px;
+	left: 500px;
+}
+
+.anoka {
+	position: absolute;
+	z-index: 3;
+	top: 990px;
+	left: 600px;
+	display: none;
+}
+
+.carver {
+	position: absolute;
+	z-index: 3;
+	top: 990px;
+	left: 550px;
+	display: none;
+}
+
+.dakota {
+	position: absolute;
+	z-index: 3;
+	top: 990px;
+	left: 600px;
+	display: none;
+}
+
+.hennepin {
+	position: absolute;
+	z-index: 3;
+	top: 990px;
+	left: 600px;
+	display: none;
+}
+
+.ramsey {
+	position: absolute;
+	z-index: 3;
+	top: 990px;
+	left: 600px;
+	display: none;
+}
+
+.scott {
+	position: absolute;
+	z-index: 3;
+	top: 990px;
+	left: 600px;
+	display: none;
+}
+
+.bike_options {
+	position: absolute;
+	z-index: 3;
+	color: white;
+	font-size: 55px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 4px;
+	top: 1650px;
+	left: 700px;
+	width: 300px;
+}
+
+.flip1 {
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	perspective: 600px;
+	z-index: 4;
+	top:1700px;
+	margin-left: 7%;
+	color: white;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 20px;
+}
+
+.option1 {
+	position: absolute;
+	z-index: 5;
+	backface-visibility: hidden;
+	transform: rotateY(0deg);
+	transition: transform .5s;
+}
+
+.option1.1 {
+	position: absolute;
+	z-index: 3;
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+	transition: transform .5s;
+}
+
+.flip1:hover .option1 {
+	transform: rotateY(-180deg);
+}
+
+.flip1:hover .option1.1 {
+	transform: rotateY(0deg);
+}
+
+.flip2 {
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	perspective: 600px;
+	z-index: 4;
+	top:1900px;
+	margin-left: 80%;
+	transform: translate(-300px);
+	color: white;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 20px;
+}
+
+.option2 {
+	position: absolute;
+	z-index: 5;
+	backface-visibility: hidden;
+	transform: rotateY(0deg);
+	transition: transform .5s;
+}
+
+.option1.2 {
+	position: absolute;
+	z-index: 3;
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+	transition: transform .5s;
+}
+
+.flip2:hover .option2 {
+	transform: rotateY(-180deg);
+}
+
+.flip2:hover .option1.2 {
+	transform: rotateY(0deg);
+}
+
+.flip3 {
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	perspective: 600px;
+	z-index: 4;
+	top:2100px;
+	margin-left: 7%;
+	color: white;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 20px;
+}
+
+.option3 {
+	position: absolute;
+	z-index: 5;
+	backface-visibility: hidden;
+	transform: rotateY(0deg);
+	transition: transform .5s;
+}
+
+.option1.3 {
+	position: absolute;
+	z-index: 3;
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+	transition: transform .5s;
+}
+
+.flip3:hover .option3 {
+	transform: rotateY(-180deg);
+}
+
+.flip3:hover .option1.3 {
+	transform: rotateY(0deg);
+}
+
+.flip4 {
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	perspective: 600px;
+	z-index: 4;
+	top:2300px;
+	margin-left: 80%;
+	transform: translate(-300px);
+	color: white;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 20px;
+}
+
+.option4 {
+	position: absolute;
+	z-index: 5;
+	backface-visibility: hidden;
+	transform: rotateY(0deg);
+	transition: transform .5s;
+}
+
+.option1.4 {
+	position: absolute;
+	z-index: 3;
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+	transition: transform .5s;
+}
+
+.flip4:hover .option4 {
+	transform: rotateY(-180deg);
+}
+
+.flip4:hover .option1.4 {
+	transform: rotateY(0deg);
+}
+
+.flip5 {
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	perspective: 600px;
+	z-index: 4;
+	top: 2500px;
+	margin-left: 7%;
+	color: white;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 20px;
+}
+
+.option5 {
+	position: absolute;
+	z-index: 5;
+	backface-visibility: hidden;
+	transform: rotateY(0deg);
+	transition: transform .5s;
+}
+
+.option1.5 {
+	position: absolute;
+	z-index: 3;
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+	transition: transform .5s;
+}
+
+.flip5:hover .option5 {
+	transform: rotateY(-180deg);
+}
+
+.flip5:hover .option1.5 {
+	transform: rotateY(0deg);
+}
+
+.flip1 p {
+	position: absolute;
+	top: 20px;
+	z-index: 4;
+	color: black;
+	left: 20px;
+}
+
+.flip2 p {
+	position: absolute;
+	top: 20px;
+	z-index: 4;
+	color: black;
+	left: 20px;
+}
+
+.flip3 p {
+	position: absolute;
+	top: 20px;
+	z-index: 4;
+	color: black;
+	left: 20px;
+}
+
+.flip4 p {
+	position: absolute;
+	top: 20px;
+	z-index: 4;
+	color: black;
+	left: 20px;
+}
+
+.flip5 p {
+	position: absolute;
+	top: 20px;
+	z-index: 4;
+	color: white;
+	left: 20px;
+}

@@ -1,0 +1,305 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono" rel="stylesheet">
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+.background {
+  background-color: black;
+  height: 3000px;
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+}
+
+.photo {
+		width: 100%;
+		height: 100%;
+  	position: absolute;
+		z-index: 2;
+}
+
+.logo {
+   position: absolute;
+   top: 10px;
+	 left: 40px;
+	 transform: rotate(-13deg);
+}
+
+.click {
+    transition-duration: 0.4s;
+		color: white;
+		padding: 15px;
+		display:inline-block;
+		z-index: 1;
+		position: absolute;
+		top: 50px;
+		left: 900px;
+		text-decoration:none;
+}
+
+.click a:link {
+  background-color: none;
+  color: white;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 15px;
+	font-weight: bolder;
+	font-family: 'Roboto Mono', sans-serif;
+}
+
+.click a:hover {
+  background-color: #cebaa1;
+  color: white;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.click a:active {
+  color: white;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.click a:visited {
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 15px;
+}
+
+h3 {
+	cursor: pointer;
+	color: white;
+	line-height: 35px;
+}
+
+.container {
+	width: 570px;
+	height: 550px;
+	position: absolute;
+	top: 250px;
+	left: 80px;
+	z-index: 6;
+}
+
+.shops {
+		position: relative;
+		background-color: rgba(226, 180, 106, 0.7);
+		font-family: 'Roboto Mono', sans-serif;
+		text-align: center;
+		padding: 20px;
+		padding-bottom: 35px;
+		font-size: 25px;
+		height: 20px;
+		width: 500px;
+		text-decoration: underline;
+
+}
+
+.about {
+    color: black;
+		padding: 25px;
+		font-size: 15px;
+		z-index: 3;
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 1px;
+		background-color: rgba(255, 255, 255, 0.85);
+		width: 490px;
+}
+
+.line {
+	height: 20px;
+	width: 500px;
+	position: absolute;
+	z-index: 5;
+	top: 960px;
+	left: 50%;
+	transform: translate(-250px);
+	border-top: 2px solid #ffffff;
+}
+
+.moto_title {
+	position: absolute;
+	z-index: 4;
+	top: 1000px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	letter-spacing: 4px;
+	left: 50%;
+	transform: translate(-150px);
+}
+
+.moto2_text {
+	position: absolute;
+	z-index: 4;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	letter-spacing: 2px;
+	text-align: center;
+	width: 240px;
+	height: 390px;
+	padding: 30px;
+	background-color: rgba(0, 0, 0, 0.4);
+	top: 1100px;
+	left: 25%;
+	transform: translate(-150px);
+	display: none;
+
+}
+
+.moto3_text {
+	position: absolute;
+	z-index: 4;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	letter-spacing: 2px;
+	text-align: center;
+	width: 240px;
+	height: 390px;
+	padding: 30px;
+	background-color: rgba(0, 0, 0, 0.4);
+	top: 1100px;
+	left: 50%;
+	transform: translate(-150px);
+	display: none;
+}
+
+.moto4_text {
+	position:absolute;
+	z-index: 4;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	letter-spacing: 2px;
+	text-align: center;
+	width: 240px;
+	height: 390px;
+	padding: 30px;
+	background-color: rgba(0, 0, 0, 0.4);
+	top: 1100px;
+	left: 75%;
+	transform: translate(-150px);
+	display: none;
+
+}
+
+.motorcycles p {
+	position: absolute;
+	z-index: 4;
+	top: -20px;
+}
+
+.moto2 {
+	position: absolute;
+	z-index: 3;
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 15px;
+	display: inline-flex;
+	top: 1100px;
+	left: 25%;
+	transform: translate(-150px);
+}
+
+.moto3 {
+	position: absolute;
+	z-index: 3;
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 15px;
+	display: inline-flex;
+	top: 1100px;
+	left: 50%;
+	transform: translate(-150px);
+}
+
+.moto4 {
+	position: absolute;
+	z-index: 3;
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 15px;
+	display: inline-flex;
+	top: 1100px;
+	left: 75%;
+	transform: translate(-150px);
+}
+
+.moto2 p {
+	position: absolute;
+	z-index: 3;
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 15px;
+	left: 50%;
+	transform: translate(-65px);
+}
+
+.moto3 p {
+	position: absolute;
+	z-index: 3;
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 15px;
+	left: 50%;
+	transform: translate(-50px);
+}
+
+.moto4 p {
+	position: absolute;
+	z-index: 3;
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 15px;
+	left: 50%;
+	transform: translate(-50px);
+}
+
+.niceride {
+	height: 500px;
+	width: 500px;
+	z-index: 6;
+	position: absolute;
+	top: 1700px;
+	left: 50%;
+	transform: translate(-350px);
+}
+
+.niceride h1 {
+	z-index: 6;
+	position: absolute;
+	letter-spacing: 2px;
+	top: -35px;
+	left: 50%;
+	width: 500px;
+	transform: translate(-200px);
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+}
+
+.niceride p {
+	z-index: 6;
+	position: absolute;
+	letter-spacing: 2px;
+	width: 500px;
+	top: 320px;
+	left: 50%;
+	transform: translate(-200px);
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
